@@ -1,0 +1,49 @@
+@import url('./components/header/header.scss');
+@import url('./components/hero/hero.scss');
+@import url('./components/second/secondTop.scss');
+@import url('./components/third/third.scss');
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    background:  url('../public/img/Color\ Blurhero.svg')no-repeat left top;
+}
+
+.header{
+    padding-bottom: 100px;
+}
+
+.hero-container{
+    padding: 45px 0 92px 0;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    // url('../public/img/Imghero.svg') no-repeat right 0px,
+}
+
+.back-hero{
+    position: absolute;
+    top: 0;
+    right: -14%;
+    z-index: -1;
+
+    & img{
+        min-width: 110%;
+    }
+}
+
+.pad{
+    padding-bottom: 120px;
+}
+
+.second-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-container{
+    max-width: 535px;
+}

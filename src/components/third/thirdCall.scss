@@ -1,0 +1,41 @@
+.third-container__call{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width:440px;
+}
+
+.third-container__call__who{
+    display: flex;
+    align-items: center;
+
+    &__text{
+        margin-left: 24px;
+    }
+    &__name{
+        font-weight: 500;
+        font-size: 18px;
+        color: #0E1735;
+        margin-bottom: 4px;
+    }
+    &__prof{
+        color: #888B97;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.third-container__button{
+    color: white;
+    background-color: #10B981;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 32px;
+
+    & img{
+        margin-right: 21px;
+    }
+}

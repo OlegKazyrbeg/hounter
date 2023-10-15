@@ -1,0 +1,39 @@
+@import url('./heroInput.scss');
+
+.hero-con{
+    max-width: 506px;
+}
+
+.hero{
+    &__title{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #1B1C57;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+    }
+    &__text{
+        color: #626687;
+        font-size: 16px;
+        line-height: 28px
+    }
+}
+
+.hero-partner{
+    &__text{
+        font-size: 16px;
+        color: #888B97;
+        margin-bottom: 10px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        margin-right: 32px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+}

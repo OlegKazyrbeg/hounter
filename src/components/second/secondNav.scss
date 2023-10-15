@@ -1,0 +1,23 @@
+.second-nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.second-top__nav{
+    align-self: end;
+}
+
+.second-nav{
+    &__item{
+        border: 1px solid #E0E3EB;
+        border-radius: 32px;
+        margin-right: 32px;
+    }
+    &__item:last-child{
+        margin: 0;
+    }
+    &__button{
+        color: #888B97;
+        padding: 17px 24px;
+    }
+}

@@ -1,0 +1,28 @@
+.third-container__detail{
+    margin-bottom: 32px;
+
+    &__title{
+        color: #1b1c57c7;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width:440px;
+        padding-bottom: 11px;
+        border-bottom: 2px solid #F0F3FD;
+    }
+    &__item{
+        width: 48%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        color: #3C4563;
+    }
+    &__item img{
+        margin-right: 20px;
+    }
+}

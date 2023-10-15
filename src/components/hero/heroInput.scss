@@ -1,0 +1,37 @@
+.input-block{
+    padding: 4px 4px 4px 27px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #E0E3EB;
+    border-radius: 32px;
+    margin: 32px 0;
+    background-color: white;
+
+    &__img{
+        margin-right: 16px;
+    }
+    &__button{
+        background-color: #10B981;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 17px 16px;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-left: auto;
+    }
+    &__button img{
+        margin-left: 13px;
+    }
+    &__input{
+        width: 305px;
+        display: block;
+        font-size: 14px;
+    }
+    &__input,
+    &__input::placeholder{
+        color: #888B97;
+    }
+}

@@ -1,0 +1,36 @@
+@import url('./thirdList.scss');
+@import url('./thirdCall.scss');
+
+.third-container-cont{
+    margin-left: 40px;
+}
+
+.third-top{
+    &__title{
+        display: flex;
+        color:#F59E0B ;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    &__title img{
+        margin-right: 8px;
+    }
+    &__name{
+        color: #1B1C57;
+        font-weight: 600;
+        font-size: 32px;
+        margin-bottom: 16px;
+        text-transform: capitalize;
+        margin-left: 40px;
+    }
+
+}
+
+.third-container{
+    &__text{
+        color: #626687;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+}
