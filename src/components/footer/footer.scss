@@ -1,0 +1,39 @@
+.footer{
+    padding-bottom: 65px;
+}
+
+.footer-text{
+    max-width: 330px;
+
+    &__logo{
+        display: flex;
+        align-items: center;
+        margin-bottom: 22px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #1B1C57;
+    }
+    &__logo img{
+        margin-right: 12px;
+    }
+    &__text{
+        font-size: 14px;
+        color: #626687;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    &__social{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+}
+
+.footer-text__social__item{
+    margin-right: 32px;
+}
+
+.footer-text__social__item:last-child{
+    margin: 0;
+}

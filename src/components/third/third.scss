@@ -33,4 +33,14 @@
         line-height: 28px;
         margin-bottom: 16px;
     }
+
+    &__video{
+        cursor: pointer;
+    }
+}
+
+.third__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
