@@ -5,6 +5,7 @@ import Second from './components/second/second';
 import Third from './components/third/third';
 import Subscribe from './components/subscribe/subscribe';
 import Footer from './components/footer/footer';
+import Fifth from './components/fifth/fifth';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main className="main">
         <Second/>
         <Third/>
+        <Fifth/>
         <Subscribe/>
       </main>
         <Footer/>

@@ -8,9 +8,11 @@
 .third-top{
     &__title{
         display: flex;
+        align-items: center;
         color:#F59E0B ;
         margin-bottom: 12px;
         font-size: 14px;
+        font-weight: 500;
     }
     &__title img{
         margin-right: 8px;
