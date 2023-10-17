@@ -1,0 +1,14 @@
+@import url('./secondNav.scss');
+@import url('./secondCardItem.scss');
+@import url('./secondTop.scss');
+
+.second-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.second-main{
+    margin-left: 40px;
+}

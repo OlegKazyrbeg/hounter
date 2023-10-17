@@ -44,3 +44,27 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.third{
+    position: relative;
+
+    >img{
+        position: absolute;
+        right: 0;
+        bottom: 70px;
+    }
+    .yellow{
+        z-index: -1;
+        right: -30px;
+    }
+    .red{
+        z-index: -2;
+        bottom: 220px;
+    }
+}
+
+
+
+.third-container__info{
+    max-width: 535px;
+}

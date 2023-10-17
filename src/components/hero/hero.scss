@@ -37,3 +37,24 @@
         margin-right: 0;
     }
 }
+
+.hero-container{
+    padding: 45px 0 92px 0;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    // url('../public/img/Imghero.svg') no-repeat right 0px,
+}
+
+.back-hero{
+    position: absolute;
+    top: 0;
+    right: -14%;
+    z-index: -1;
+
+    & img{
+        min-width: 110%;
+    }
+}

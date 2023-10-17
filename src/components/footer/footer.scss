@@ -1,8 +1,5 @@
 @import url('./footerNav.scss');
 
-.footer{
-}
-
 .footer-container{
     display: flex;
     align-items: center;
@@ -43,4 +40,17 @@
 
 .footer-text__social__item:last-child{
     margin: 0;
+}
+
+.footer{
+    position: relative;
+    margin-top: auto;
+
+    .ftr-back{
+        position: absolute;
+        right: 0;
+        top: -305px;
+        z-index: -1;
+        width: 800px;
+    }
 }
