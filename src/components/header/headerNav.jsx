@@ -1,13 +1,13 @@
-// import { useState } from "react";
+import { useState } from "react";
 
-function headerNav(){
+function HeaderNav(){
 
-    // const [moreList, setMoreList] = useState(1)
+    const [moreList, setMoreList] = useState(1)
 
-    // const addMoreListHandle = () =>{
-    //     setMoreList(moreList)
-    //     console.log(moreList + 1)
-    // }
+    const addMoreListHandle = () =>{
+        setMoreList(moreList)
+        console.log(moreList + 1)
+    }
 
     return(
         <div>
@@ -15,7 +15,7 @@ function headerNav(){
                 <ul className="header-container__nav__list">
                     <li className="header-container__nav__item"><a href="##">About Us</a></li>
                     <li className="header-container__nav__item"><a href="##">Article</a></li>
-                    <li className="header-container__nav__item">
+                    <li onClick={addMoreListHandle} className="header-container__nav__item">
                         Property 
                         <button className="header-container__nav__button"><img src="./img/arrowmore.svg" alt="" /></button>
 
@@ -30,4 +30,4 @@ function headerNav(){
         </div>
     )
 }
-export default headerNav
+export default HeaderNav

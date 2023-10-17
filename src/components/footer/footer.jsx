@@ -1,4 +1,6 @@
-const footer = () => {
+import FooterNav from "./footerNav";
+
+const Footer = () => {
     return ( 
         <div className="footer-container">
             <div className="footer-text">
@@ -10,8 +12,9 @@ const footer = () => {
                 <li className="footer-text__social__item"><a href="##"><img src="./img/inst.svg" alt="" /></a></li>
               </ul>
             </div>
+            <FooterNav/>
         </div>
      );
 }
  
-export default footer;
+export default Footer;

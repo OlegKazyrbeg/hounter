@@ -1,12 +1,12 @@
 .header-container__nav{
     margin-right: 54px;
+    color: white;
 
     &__list{
         display: flex;
         align-items: center;
     }
     &__item{
-        color: #F0F3FD;
         background-color: rgba(255, 255, 255, 0.10);
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 30px;

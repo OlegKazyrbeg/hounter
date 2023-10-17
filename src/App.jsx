@@ -3,14 +3,12 @@ import Header from './components/header/header'
 import Hero from './components/hero/hero';
 import Back from './components/header/back';
 import SecondTop from './components/second/secondTop';
-import SecondCard from './components/second/secondCardItem';
+import SecondCard from './components/second/secondCard';
 import Third from './components/third/third';
 import Subscribe from './components/subscribe/subscribe';
 import Footer from './components/footer/footer';
 
 function App() {
-
-  
   return (
     <div className="wrapper">
       <div className="hero-container">
@@ -54,6 +52,7 @@ function App() {
         <div className="container">
           <Footer/>
         </div>
+        <img className='ftr-back' src="./img/footerbackjpg.jpg" alt="" />
       </footer>
     </div>
   )

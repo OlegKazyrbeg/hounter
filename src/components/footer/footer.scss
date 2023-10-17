@@ -1,5 +1,12 @@
+@import url('./footerNav.scss');
+
 .footer{
-    padding-bottom: 65px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-text{

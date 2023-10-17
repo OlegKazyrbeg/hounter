@@ -1,0 +1,57 @@
+.second-main__row{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.second-main__card{
+    font-weight: 500;
+
+    &__image{
+        position: relative;
+    }
+    &__category{
+        position: absolute;
+        left: 16px;
+        bottom: 16px;
+        font-size: 14px;
+        padding: 9px 17px;
+        // background: rgba(255, 255, 255, 0.95);
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    &__category img{
+        margin-right: 10px;
+    }
+    &__title{
+        color: #0E1735;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    &__price{
+        color: #3C4563;
+        font-size: 20px;
+
+    }
+}
+
+.second-main__card__who{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+
+    &__image{
+        margin-right: 16px;
+    }
+
+    &__name{
+        color: #0E1735;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    &__city{
+        color: #888B97;
+        font-size: 14px;
+    }
+}

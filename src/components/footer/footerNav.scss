@@ -1,0 +1,18 @@
+.footer-nav{
+    display: flex;
+    gap: 88px;
+
+    &__item:not(:last-child){
+        margin-bottom: 18px;
+    }
+    &__item a{
+        color: #888B97;
+        font-size: 14px;
+    }
+    &__title{
+        color: #0E1735;
+        margin-bottom: 24px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

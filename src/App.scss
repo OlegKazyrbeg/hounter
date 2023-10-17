@@ -1,14 +1,18 @@
 @import url('./components/header/header.scss');
 @import url('./components/hero/hero.scss');
 @import url('./components/second/secondTop.scss');
+@import url('./components/second/secondCardItem.scss');
 @import url('./components/third/third.scss');
 @import url('./components/subscribe/subscribe.scss');
 @import url('./components/footer/footer.scss');
 
 .wrapper{
     margin: 0;
-    padding: 0;
+    padding: 0 0 126px 0;
     background:  url('../public/img/Color\ Blurhero.svg')no-repeat left top;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header{
@@ -44,6 +48,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.second-main{
+    margin-left: 40px;
 }
 
 .third{
@@ -61,6 +70,19 @@
     .red{
         z-index: -2;
         bottom: 220px;
+    }
+}
+
+.footer{
+    position: relative;
+    margin-top: auto;
+
+    .ftr-back{
+        position: absolute;
+        right: 0;
+        top: -305px;
+        z-index: -1;
+        width: 800px;
     }
 }
 
