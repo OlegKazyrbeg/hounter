@@ -1,5 +1,10 @@
+@import url('./fifthCard.scss');
+@import url('./fifthCards.scss');
+
 .fifth{
     text-align: center;
+    position: relative;
+
     &__title{
         color: #F59E0B;
         font-size: 14px;
@@ -26,5 +31,12 @@
         font-size: 14px;
         background-color: #10B981;
         border-radius: 32px;
+    }
+
+    &-back{
+        position: absolute;
+        left: 0;
+        top: -170px;
+        z-index: -1
     }
 }

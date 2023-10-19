@@ -1,0 +1,91 @@
+.fifth-card{
+    display: flex;
+    align-items: center;
+
+    &__image img{
+        margin-right: 32px;
+        display: block;
+    }
+}
+
+.fifth-card:not(:last-child){
+    margin-bottom: 42px;
+}
+
+.fifth-card__info{
+
+    &__who{
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    &__who img{
+        margin-right: 16px;
+        width: 32px;
+    }
+    &__name{
+        color: #3C4563;
+        font-size: 14px;
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: 600;
+        color: #1B1C57;
+        margin-bottom: 16px;
+    }
+    &__time{
+        display: flex;
+        align-items: center;
+        color: #888B97;
+        font-size: 14px;
+    }
+    &__time img{
+        margin-right: 12px;
+    }
+}
+
+.fifth-card__r{
+    display: flex;
+    flex-direction: column;
+
+    &__image img{
+        margin-bottom: 24px;
+    }
+}
+
+.fifth-card__info{
+
+    &__who__r{
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    &__who__r img{
+        margin-right: 16px;
+        width: 32px;
+    }
+    &__name__r{
+        color: #3C4563;
+        font-size: 14px;
+    }
+    &__title__r{
+        font-size: 24px;
+        font-weight: 600;
+        color: #1B1C57;
+        margin-bottom: 16px;
+    }
+    &__text__r{
+        color: #626687;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    &__time__r{
+        display: flex;
+        align-items: center;
+        color: #888B97;
+        font-size: 14px;
+    }
+    &__time__r img{
+        margin-right: 12px;
+    }
+}

@@ -1,0 +1,15 @@
+.fifth-row__50{
+    max-width: 49%;
+    text-align: left;
+
+    &:last-child{
+        margin-right: -30px;
+    }
+}
+
+.fifth-row{
+    margin-top: 42px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
