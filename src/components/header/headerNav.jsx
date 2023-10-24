@@ -2,12 +2,7 @@ import { useState } from "react";
 
 function HeaderNav(){
 
-    const [moreList, setMoreList] = useState(1)
-
-    const addMoreListHandle = () =>{
-        setMoreList(moreList)
-        console.log(moreList + 1)
-    }
+    const [activeList, setActiveList] = useState(true)
 
     return(
         <div>
@@ -15,11 +10,11 @@ function HeaderNav(){
                 <ul className="header-container__nav__list">
                     <li className="header-container__nav__item"><a href="##">About Us</a></li>
                     <li className="header-container__nav__item"><a href="##">Article</a></li>
-                    <li onClick={addMoreListHandle} className="header-container__nav__item">
+                    <li onClick={() => setActiveList(!activeList)} className="header-container__nav__item">
                         Property 
                         <button className="header-container__nav__button"><img src="./img/arrowmore.svg" alt="" /></button>
 
-                        <ul className="header-container__nav__more__list">
+                        <ul className={`header-container__nav__more__list ${activeList ? "active" : " "}`}>
                             <li className="header-container__nav__more__item"><a href="##">link</a></li>
                             <li className="header-container__nav__more__item"><a href="##">link</a></li>
                             <li className="header-container__nav__more__item"><a href="##">link</a></li>

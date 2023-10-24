@@ -1,0 +1,31 @@
+@import url('./fourItem.scss');
+
+.four{
+    padding-bottom: 240px;
+
+    &__title{
+        font-size: 14px;
+        color: #F59E0B;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & img{
+            margin-bottom: 8px;
+        }
+    }
+    &__name{
+        font-size: 32px;
+        color: #1B1C57;
+        text-align: center;
+    }
+}
+
+.four-slider{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    gap: 56px;
+    justify-content: center;
+}

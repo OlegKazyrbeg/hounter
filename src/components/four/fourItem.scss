@@ -1,0 +1,57 @@
+.four-slider{
+
+    &__item{
+        position: relative;
+    }
+    &__text{
+        position: absolute;
+        bottom: -124px;
+        right: 64px;
+        width: 74.7%;
+        background-color: white;
+        padding: 32px;
+        border-radius: 16px;
+        box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.05);
+
+        &__title{
+            font-size: 20px;
+            font-weight: 600;
+            color: #1B1C57;
+            margin-bottom: 16px;
+        }
+        &__text{
+            font-size: 14px;
+            color: #626687;
+            margin-bottom: 24px;
+            line-height: 171%;
+        }
+    }
+    &__who{
+        display: flex;
+        align-items: center;
+
+        &__image{
+            width: 40px;
+            height: 40px;
+            margin-right: 24px;
+        }
+        &__name{
+            color: #0E1735;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &__work{
+            color: #888B97;
+            font-size: 14px;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+
+        &__grade{
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+}
