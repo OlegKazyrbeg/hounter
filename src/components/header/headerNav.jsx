@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function HeaderNav(){
 
-    const [activeList, setActiveList] = useState(true)
+    const [activeList, setActiveList] = useState(false)
 
     return(
         <div>
